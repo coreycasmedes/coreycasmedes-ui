@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/coreycasmedes-ui/static/css/main.e6266606.css",
-    "main.js": "/coreycasmedes-ui/static/js/main.3bbd4874.js",
+    "main.css": "/coreycasmedes-ui/static/css/main.8172bd59.css",
+    "main.js": "/coreycasmedes-ui/static/js/main.f51827b5.js",
     "static/js/787.4d17e14f.chunk.js": "/coreycasmedes-ui/static/js/787.4d17e14f.chunk.js",
     "static/media/keyboard_and_coffee_tech.jpg": "/coreycasmedes-ui/static/media/keyboard_and_coffee_tech.986238f09d4aa17231fc.jpg",
+    "static/media/corey_muir_beach.jpg": "/coreycasmedes-ui/static/media/corey_muir_beach.18098ef5f7f777acb729.jpg",
+    "static/media/instagram_icon.png": "/coreycasmedes-ui/static/media/instagram_icon.ff9721125ed9d2cea46e.png",
+    "static/media/github_icon.png": "/coreycasmedes-ui/static/media/github_icon.5fd00dcdaa94a9ffbe9e.png",
     "index.html": "/coreycasmedes-ui/index.html",
-    "main.e6266606.css.map": "/coreycasmedes-ui/static/css/main.e6266606.css.map",
-    "main.3bbd4874.js.map": "/coreycasmedes-ui/static/js/main.3bbd4874.js.map",
+    "main.8172bd59.css.map": "/coreycasmedes-ui/static/css/main.8172bd59.css.map",
+    "main.f51827b5.js.map": "/coreycasmedes-ui/static/js/main.f51827b5.js.map",
     "787.4d17e14f.chunk.js.map": "/coreycasmedes-ui/static/js/787.4d17e14f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6266606.css",
-    "static/js/main.3bbd4874.js"
+    "static/css/main.8172bd59.css",
+    "static/js/main.f51827b5.js"
   ]
 }
