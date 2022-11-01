@@ -52,7 +52,7 @@ function NavBar() {
                             <a href='https://github.com/coreycasmedes'>
                                 <img src={GithubIcon} className='rounded-full w-9'></img>
                             </a>
-                            <a href='mailto:ccasmedes3@gmail.com'>
+                            <a href='mailto:palmate-nibs.0h@icloud.com'>
                                 <img src={EmailIcon} className='rounded-full w-9'></img>
                             </a>
                             
