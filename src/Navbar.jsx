@@ -29,7 +29,7 @@ function NavBar() {
                         <Tab
                             key={category}
                             className={classNames(
-                                "w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-white"                            )}
+                                "w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-white outline-none"                            )}
                         >
                             {category}
                         </Tab>
