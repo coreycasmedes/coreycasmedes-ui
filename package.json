@@ -2,6 +2,7 @@
   "name": "coreycasmedes-ui",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://coreycasmedes.github.io",
   "dependencies": {
     "@headlessui/react": "^1.7.3",
     "@headlessui/tailwindcss": "^0.1.1",
