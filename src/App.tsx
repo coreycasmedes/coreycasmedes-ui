@@ -11,13 +11,9 @@ import NavBar from './Navbar';
 function App() {
   return (
 
-    <div>
-      <div>
+    <div className="min-h-screen min-w-full bg-[url('../public/keyboard_and_coffee_tech.jpg')] bg-cover bg-fixed">
+      <div >
         <NavBar />
-      </div>
-
-      <div>
-        <Example />
       </div>
 
     </div>
