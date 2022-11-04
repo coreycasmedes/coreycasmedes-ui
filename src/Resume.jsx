@@ -59,7 +59,7 @@ function Resume() {
 
     return (
 
-        <div className="grid place-items-center my-36">
+        <div className="grid grid-cols-1 lg:mx-96 sm:mx-44 place-items-center my-36 font-sans">
             <h1
                 className='text-4xl'
             >
@@ -72,12 +72,12 @@ function Resume() {
             </h3>
 
             <h1
-                className='text-4xl'
+                className='text-4xl my-6'
             >
                 Experience
             </h1>
             {experiences.map((experience) => (
-                <div className="p-8">
+                <div className="justify-self-start">
                     <h3 className="text-2xl">
                         {experience.title}
                     </h3>
