@@ -12,9 +12,10 @@ function Resume() {
                 startDate: "May 2021",
                 endDate: "",
                 details: [
-                    "Worked on integratino as a service for new apple pay partners",
-                    "Built internal performance testing tool to gain better insight on server side performance",
-                    "Mentored junior engineers and interns"
+                    "Architected and implemented automated performance and server testing tool for Apple Wallet & Pay applications",
+                    "Developed integration testing as a service to rapidly expand business and onboard hundreds of partners",
+                    "Improved the user experience, efficiency, and user rate by rebuilding a legacy UI using react, nodejs, express.js and kube",
+                    "Mentored junior engineers and interns to enable their successful through pair programming and code reviews"
                 ]
             },
             {
@@ -24,33 +25,10 @@ function Resume() {
                 startDate: "August 2019",
                 endDate: "May 2021",
                 details: [
-                    "Worked on enhancing credit risk management ",
-                    "Built tools to generate Comprehensive Credit Analysis Review for government audits",
-                    "Created new internal tools to automate risk scenarios using data and ML"
-                ]
-            },
-            {
-                title: "Software Engineer",
-                company: "Capital One",
-                location: "Plano, TX",
-                startDate: "August 2019",
-                endDate: "May 2021",
-                details: [
-                    "Worked on enhancing credit risk management ",
-                    "Built tools to generate Comprehensive Credit Analysis Review for government audits",
-                    "Created new internal tools to automate risk scenarios using data and ML"
-                ]
-            },
-            {
-                title: "Software Performance Engineer",
-                company: "Apple",
-                location: "Austin, TX",
-                startDate: "May 2021",
-                endDate: "",
-                details: [
-                    "Worked on integratino as a service for new apple pay partners",
-                    "Built internal performance testing tool to gain better insight on server side performance",
-                    "Mentored junior engineers and interns"
+                    "Develop innovative and insightful loss forecasting solutions for internal Credit Risk Management problems and audits",
+                    "Transformed our product portfolio using an agile framework and technologies including Python, R, AWS, and Spark",
+                    "Extensive experience with a variety of AWS services to architect and deploy infrastructure in a cloud environment",
+                    "Volunteer and facilitate community outreach events such as CODERS and UT Dallas partnership InnovateHer"
                 ]
             },
         ]

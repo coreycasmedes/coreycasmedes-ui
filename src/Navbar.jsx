@@ -40,7 +40,7 @@ function NavBar() {
                 <Tab.Panel>
                     <Resume />
                 </Tab.Panel>
-                <Tab.Panel>Content 3</Tab.Panel>
+                <Tab.Panel>Under Construction</Tab.Panel>
                 </Tab.Panels>
                 </Tab.Group>
         </div>

@@ -3,6 +3,7 @@ import InstagramIcon from './instagram_icon.png'
 import LinkedInIcon from './linkedin_icon.png'
 import GithubIcon from './github_icon.png'
 import EmailIcon from './email_icon.png'
+import AppleLogoTransition from './AppleLogoTransition';
 
 
 function Home() {
@@ -30,14 +31,16 @@ function Home() {
             </div>
             <div className='flex font-mono my-6'> 
                 <p>Currently</p>
-
-                <div class="bg-black w-4 h-4 rounded-full animate-bounce"></div>
-                <div class="bg-black w-4 h-4 rounded-full animate-bounce transition-all duration-100 delay-200"></div>
-                <div class="bg-black w-4 h-4 rounded-full animate-bounce transition-opacity"></div>
-
-                <div className='animate-pulse'>
-                    ...
+                <div className='animate-bounce w-3 h-12 ml-2 duration-500'>
+                    .
                 </div>
+                <div className='animate-bounce w-3 h-12 delay-200'>
+                    .
+                </div>
+                <div className='animate-bounce w-3 h-12 delay-500'>
+                    .
+                </div>
+                {/* <AppleLogoTransition /> */}
 
                 {/* <div role="status">
                     <svg aria-hidden="true" class="ml-4 mr-6 w-6 h-6 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
