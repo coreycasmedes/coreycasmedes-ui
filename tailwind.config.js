@@ -9,6 +9,8 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
+          'clean': ['Assistant', "sans"],
+          'assistant-extrabold': ['Assistant-ExtraBold', "sans"],
           'sans': ['Roboto', ...defaultTheme.fontFamily.sans],
           'roboto': ['Roboto', ...defaultTheme.fontFamily.sans],
           'arial': ['Arial', ...defaultTheme.fontFamily.sans],
