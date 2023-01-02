@@ -10,6 +10,8 @@ module.exports = {
       extend: {
         fontFamily: {
           'sans': ['Roboto', ...defaultTheme.fontFamily.sans],
+          'roboto': ['Roboto', ...defaultTheme.fontFamily.sans],
+          'arial': ['Arial', ...defaultTheme.fontFamily.sans],
         },
     },
     plugins: [],

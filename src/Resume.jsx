@@ -37,9 +37,9 @@ function Resume() {
 
     return (
 
-        <div className="grid grid-cols-1 lg:mx-96 sm:mx-44 place-items-center my-36 font-sans">
+        <div className="grid grid-cols-1 lg:mx-96 sm:mx-44 place-items-center my-36 font-arial min-h-full ">
             <h1
-                className='text-4xl'
+                className='text-2xl'
             >
                 Corey Casmedes
             </h1>
@@ -48,14 +48,16 @@ function Resume() {
             >
                 Software Engineer
             </h3>
-
-            <h1
-                className='text-4xl my-6'
+            <h2
+                className='text-2xl'
             >
                 Experience
-            </h1>
+            </h2>
+
+
+
             {experiences.map((experience) => (
-                <div className="justify-self-start">
+                <div className="justify-self-start py-4 bg-white border-gray-200 border shadow-md rounded-lg px-4 my-4 hover:scale-110 ease-in duration-500 min-w-full">
                     <h3 className="text-2xl">
                         {experience.title}
                     </h3>
