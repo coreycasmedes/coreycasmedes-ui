@@ -4,15 +4,15 @@
 
 @font-face {
     font-family: "Assistant";
-    src: url('/Users/coreycasmedes/Downloads/Assistant/static/Assistant-Medium.ttf')
+    src: url('../Assistant-Medium.ttf')
 }
 
 @font-face {
     font-family: "Assistant-ExtraBold";
-    src: url('/Users/coreycasmedes/Downloads/Assistant/static/Assistant-ExtraBold.ttf')
+    src: url('../Assistant-ExtraBold.ttf')
 }
 
 @font-face {
     font-family: "Assistant-Light";
-    src: url('/Users/coreycasmedes/Downloads/Assistant/static/Assistant-Light.ttf')
+    src: url('../Assistant-Light.ttf')
 }
