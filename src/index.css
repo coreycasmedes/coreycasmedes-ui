@@ -11,3 +11,8 @@
     font-family: "Assistant-ExtraBold";
     src: url('/Users/coreycasmedes/Downloads/Assistant/static/Assistant-ExtraBold.ttf')
 }
+
+@font-face {
+    font-family: "Assistant-Light";
+    src: url('/Users/coreycasmedes/Downloads/Assistant/static/Assistant-Light.ttf')
+}
