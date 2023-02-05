@@ -9,7 +9,12 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
+          'clean': ['Assistant', "sans"],
+          'assistant-extrabold': ['Assistant-ExtraBold', "sans"],
+          'assistant-light': ['Assistant-Light', "sans"],
           'sans': ['Roboto', ...defaultTheme.fontFamily.sans],
+          'roboto': ['Roboto', ...defaultTheme.fontFamily.sans],
+          'arial': ['Arial', ...defaultTheme.fontFamily.sans],
         },
     },
     plugins: [],
