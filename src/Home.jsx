@@ -65,7 +65,11 @@ function Home() {
 
             <div className=' bg-black flex flex-col lg:flex-row items-center row-span-1'>
                 <img src={ProfileAvatar} className='rounded-2xl w-60 h-60 lg:w-96 lg:h-96 my-28 mx-28 border-4'></img>
-                <div className='text-white text-xs lg:text-lg font-assistant-light pr-48'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla autem, adipisci laborum consequuntur neque ab quisquam maxime provident consequatur eveniet velit voluptas dolorum? Officiis quasi hic molestiae neque. Aspernatur, natus.</div>
+                <div className='text-white text-xs lg:text-lg font-assistant-light pr-48'>
+                    I believe that great software should do more than just solve problems – 
+                    it should inspire, delight, and change the world. That's why I approach 
+                    every project with a sense of purpose and a commitment to excellence.
+                </div>
             </div>
 
             <div className='row-span-1 flex justify-center items-center'>
