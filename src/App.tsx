@@ -34,7 +34,7 @@ function App() {
         
         <ul className='flex items-center gap-0 md:gap-8'>
           <li className=' px-2 py-1 font-assistant-light  ml-4 rounded-md hover:bg-gray-300'>
-            <Link to="/">Home</Link>
+            <Link to="/coreycasmedes-ui">Home</Link>
           </li>
           <li className='px-2 py-1 font-assistant-light  ml-4 rounded-md hover:bg-gray-300'>
             <Link to="/" onClick={() => {window.open(require('./CoreyCasmedesFall2022.pdf'))}}>Resume</Link>
@@ -48,7 +48,7 @@ function App() {
       
         <Routes>
           <Route path="coreycasmedes-ui" element={<Home />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="resume" element={<Resume />} />
         </Routes>
       
 
