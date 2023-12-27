@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add this to your stylesheet (App.css or wherever you maintain your custom styles) */
+/* Add this to your stylesheet */
+@keyframes typing {
+  from {
+    width: 0;
+    visibility: hidden;
+  }
+  to {
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+@keyframes blink-caret {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: greenyellow }
+}
+
+@keyframes fade-cursor {
+  to { border-color: transparent; }
+}
+
+.typewriter h1 {
+  
+  overflow: hidden;
+  border-right: .6em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  visibility: hidden; /* Start with h1 hidden */
+}
+
+.typewriter h1.animate-typing {
+  animation: typing 2.5s steps(40, end) forwards, blink-caret 0.75s step-end infinite, fade-cursor 2.5s steps(1, end) 2.5s forwards; /* Add this line */;
+}
+
+.typewriter h1:nth-child(1).animate-typing {
+  animation-delay: 0s;
+}
+
+.typewriter h1:nth-child(2).animate-typing {
+  animation-delay: 2.5s; /* Delayed by the length of the first animation */
+}
+
+.typewriter h1:nth-child(3).animate-typing {
+  animation-delay: 5s; /* Delayed by the length of the first and second animations */
+}
+
+.typewriter h1:nth-child(4).animate-typing {
+  animation-delay: 7.5s; /* Delayed by the length of the first, second, and third animations */
+}
+
+.typewriter h1:nth-child(5).animate-typing {
+  animation-delay: 10.0s; /* Delayed by the length of the first, second, and third animations */
+}
+
