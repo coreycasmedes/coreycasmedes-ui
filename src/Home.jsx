@@ -5,7 +5,9 @@ import './App.css';
 import { Tab } from '@headlessui/react'
 import NavBar from './Navbar';
 import ProfileAvatar from './corey_muir_beach.jpg';
-import Headshot from './headshot3.jpg';
+//import Headshot from './img_v2.png';
+import Headshot from './img_v2_grayscale.png';
+//import Headshot from './full_length_no_background_blurred.png
 
 import Button from './Button';
 import InstagramIcon from './instagram_icon.png'
@@ -14,6 +16,14 @@ import GithubIcon from './github_icon.png'
 import EmailIcon from './email_icon.png'
 import { Link } from 'react-router-dom';
 
+// ccd5ae
+// e9edc9
+// fefae0
+// faedcd
+// d4a373
+
+// /* Array */
+// ["ccd5ae","e9edc9","fefae0","faedcd","d4a373"]
 
 
 
@@ -22,54 +32,78 @@ function Home() {
   //const testBackgroundUrl = '/User/coreycasmedes/Downloads/augustine-wong-3Om4DHcaAc0-unsplash.jpg';
   return (
 
-    <div className="min-h-screen min-w-full ">
-        <div className='grid grid-rows-5 grid-cols-1'>
-            <div className='h-4/6 flex flex-col place-self-center'>
+    <div className="min-w-full">
+        <div className='grid grid-rows-4 grid-cols-1'>
+            <div className='flex bg-black text-white p-12 justify-around'>
+                <div className='flex flex-col place-self-center'>
 
-                <h1 className='font-assistant-extrabold text-6xl lg:text-8xl self-center'>Corey</h1>
-                <h1 className='font-clean text-6xl lg:text-8xl self-center'>Casmedes</h1>
-                <h1 className='self-center font-assistant-light'>Software Engineer</h1>
-            
-                <div className='my-24 flex gap-0 lg:gap-8 lg:divide-x-2'>
+                    <h1 className='font-assistant-extrabold text-6xl lg:text-8xl self-center'>Corey</h1>
+                    <h1 className='font-clean text-6xl lg:text-8xl self-center'>Casmedes</h1>
+                    <h1 className='self-center font-assistant-light'>Software Engineer</h1>
+
+                    <div className="typewriter my-12">
+                        <h1 style={{maxWidth: '312px'}} className="font-mono animate-typing mb-4">Building cool software @</h1>
+                        <h1 style={{maxWidth: '120px'}} className="font-mono animate-typing">Cruise 🚘</h1>
+                        <h1 style={{maxWidth: '110px'}} className="font-mono animate-typing">Apple 📱</h1>
+                        <h1 style={{maxWidth: '184px'}} className="font-mono animate-typing">Capital One 🏦</h1>
+                        <h1 style={{maxWidth: '168px'}} className="font-mono animate-typing">State Farm 📃</h1>
+                    </div>
+
+
+
+
+
+
+
+                    {/* <div className='my-12 flex gap-0 lg:gap-8 lg:divide-x-2'>
+                        
+                        <div className='flex items-center pl-0 lg:pl-8'>
+                            <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
+                                <img src={InstagramIcon} className='rounded-full w-8 lg:w-9'></img>
+                            </a>
+                            <h1 className='font-clean invisible lg:visible w-0 lg:w-full'>Instagram</h1>
+                        </div>
+
+                        <div className='flex items-center pl-0 lg:pl-8'>
+                            <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
+                                <img src={GithubIcon} className='rounded-full w-8 lg:w-9'></img>
+                            </a>
+                            <h1 className='font-clean invisible lg:visible w-0 lg:w-full'>Github</h1>
+                        </div>
+
+                        <div className='flex items-center pl-0 lg:pl-8'>
+                            <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
+                                <img src={LinkedInIcon} className='rounded-full w-8 lg:w-9'></img>
+                            </a>
+                            <h1 className='font-clean invisible lg:visible w-0 lg:w-full'>LinkedIn</h1>
+                        </div>
+
+                        <div className='flex items-center pl-0  lg:pl-8'>
+                            <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
+                                <img src={EmailIcon} className='rounded-full w-8 lg:w-9'></img>
+                            </a>
+                            <h1 className='font-clean invisible lg:visible w-0 lg:w-full'>Email</h1>
+                        </div>
+                    </div> */}
                     
-                    <div className='flex items-center pl-0 lg:pl-8'>
-                        <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
-                            <img src={InstagramIcon} className='rounded-full w-8 lg:w-9'></img>
-                        </a>
-                        <h1 className='font-clean invisible lg:visible w-0 lg:w-full'>Instagram</h1>
-                    </div>
 
-                    <div className='flex items-center pl-0 lg:pl-8'>
-                        <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
-                            <img src={GithubIcon} className='rounded-full w-8 lg:w-9'></img>
-                        </a>
-                        <h1 className='font-clean invisible lg:visible w-0 lg:w-full'>Github</h1>
-                    </div>
 
-                    <div className='flex items-center pl-0 lg:pl-8'>
-                        <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
-                            <img src={LinkedInIcon} className='rounded-full w-8 lg:w-9'></img>
-                        </a>
-                        <h1 className='font-clean invisible lg:visible w-0 lg:w-full'>LinkedIn</h1>
-                    </div>
-
-                    <div className='flex items-center pl-0  lg:pl-8'>
-                        <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
-                            <img src={EmailIcon} className='rounded-full w-8 lg:w-9'></img>
-                        </a>
-                        <h1 className='font-clean invisible lg:visible w-0 lg:w-full'>Email</h1>
-                    </div>
                 </div>
-
+                <img src={Headshot} className=' w-80' />
             </div>
+            
+            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className='bg-black'>
+  <path fill="#fff" d="M0,256L60,234.7C120,213,240,171,360,149.3C480,128,600,128,720,144C840,160,960,192,1080,197.3C1200,203,1320,181,1380,170.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+</svg> */}
 
-            <div className=' bg-black flex flex-col lg:flex-row items-center row-span-1'>
-                <img src={ProfileAvatar} className='rounded-2xl w-60 h-60 lg:w-96 lg:h-96 my-28 mx-28 border-4'></img>
-                <div className='text-white text-xs lg:text-lg font-assistant-light pr-48'>
-                    I believe that great software should do more than just solve problems – 
-                    it should inspire, delight, and change the world. That's why I approach 
-                    every project with a sense of purpose and a commitment to excellence.
-                </div>
+
+
+            <div className='bg-black flex flex-col lg:flex-row items-center row-span-1'>
+                <ul>
+                    <li>linkedin</li>
+                    <li>twitter</li>
+                    <li>github</li>
+                </ul>
             </div>
 
             <div className='row-span-1 flex justify-center items-center'>
@@ -83,9 +117,11 @@ function Home() {
                 </div>
             </div>
 
-            <div className=' bg-purple-600 flex flex-col lg:flex-row row-span-1 justify-around items-center'>
-                <div className='text-white text-sm lg:text-lg font-clean w-3/6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla autem, adipisci laborum consequuntur neque ab quisquam maxime provident consequatur eveniet velit voluptas dolorum? Officiis quasi hic molestiae neque. Aspernatur, natus.</div>
-                <img src={Headshot} className='rounded-full w-96 border-8' />
+            <div className=' bg-black  flex flex-col lg:flex-row row-span-1 justify-around items-center p-10'>
+                <div className='text-white text-sm lg:text-lg font-clean w-3/6'>Corey Casmedes
+                ive built cool things at
+                cruise 🚘 apple 📱 capitalone 🏦</div>
+                <img src={Headshot} className='w-80' />
             </div>
 
         </div>
