@@ -28,7 +28,7 @@ const App: React.FC = () => {
   //const testBackgroundUrl = '/User/coreycasmedes/Downloads/augustine-wong-3Om4DHcaAc0-unsplash.jpg';
   return (
 
-    <div className="min-h-screen min-w-full text-white bg-black">
+    <div className="flex flex-col min-h-screen text-white bg-black">
 
       <div className='flex justify-center md:pr-16 sticky top-0  w-full h-20 backdrop-blur-sm'>
         
@@ -43,15 +43,43 @@ const App: React.FC = () => {
             <Link to="/projects">Projects</Link>
           </li>
         </ul>
-        </div>
+      </div>
 
-      
+    
+      <div className='flex-grow flex-shrink-0 basis-auto'>
         <Routes>
           <Route path="coreycasmedes-ui" element={<Home />} />
           <Route path="resume" element={<Resume />} />
         </Routes>
-      
+      </div>
 
+
+      <div className='flex justify-center flex-shrink-0 my-12 sm:my-6'>
+          
+          <div className='flex items-center pl-0 lg:pl-8'>
+              <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
+                  <img src={InstagramIcon} className='rounded-full w-8 lg:w-9 bg-white'></img>
+              </a>
+          </div>
+
+          <div className='flex items-center pl-0'>
+              <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
+                  <img src={GithubIcon} className='rounded-full w-8 lg:w-9 bg-white'></img>
+              </a>
+          </div>
+
+          <div className='flex items-center pl-0 fill-white'>
+              <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
+                  <img src={LinkedInIcon} className='rounded-full w-8 lg:w-9 bg-white'></img>
+              </a>
+          </div>
+
+          <div className='flex items-center pl-0 '>
+              <a href='https://www.instagram.com/coreycasmedes/' className='px-2'>
+                  <img src={EmailIcon} className='rounded-full w-8 lg:w-9'></img>
+              </a>
+          </div>
+      </div>
     </div>
   );
 }
