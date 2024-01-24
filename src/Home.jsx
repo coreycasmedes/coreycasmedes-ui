@@ -32,7 +32,7 @@ function Home() {
   //const testBackgroundUrl = '/User/coreycasmedes/Downloads/augustine-wong-3Om4DHcaAc0-unsplash.jpg';
   return (
 
-        <div className='flex bg-black text-white p-12 justify-around'>
+        <div className='flex bg-black text-white p-12 justify-around px-52'>
             <div className='flex flex-col'>
 
                 <div className="z-10 mt-8">
@@ -43,7 +43,7 @@ function Home() {
                     </div>
 
                     <div className="typewriter my-12">
-                        <h1 style={{maxWidth: '312px'}} className="font-mono animate-typing mb-4">Building cool software</h1>
+                        <h1 style={{maxWidth: '255px'}} className="font-mono animate-typing mb-4">Building cool things</h1>
                         <h1 style={{maxWidth: '120px'}} className="font-mono animate-typing">Cruise 🚘</h1>
                         <h1 style={{maxWidth: '110px'}} className="font-mono animate-typing">Apple 📱</h1>
                         <h1 style={{maxWidth: '184px'}} className="font-mono animate-typing">Capital One 🏦</h1>
