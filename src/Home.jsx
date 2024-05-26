@@ -43,7 +43,7 @@ function Home() {
                     </div>
 
                     <div className="typewriter my-12">
-                        <h1 style={{maxWidth: '255px'}} className="font-mono animate-typing mb-4">Building cool things</h1>
+                        <h1 style={{maxWidth: '255px'}} className="font-mono animate-typing mb-4">Building cool thingss</h1>
                         <h1 style={{maxWidth: '120px'}} className="font-mono animate-typing">Cruise 🚘</h1>
                         <h1 style={{maxWidth: '110px'}} className="font-mono animate-typing">Apple 📱</h1>
                         <h1 style={{maxWidth: '184px'}} className="font-mono animate-typing">Capital One 🏦</h1>
