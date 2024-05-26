@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coreycasmedes-ui/static/css/main.3f49b327.css",
-    "main.js": "/coreycasmedes-ui/static/js/main.589daf5b.js",
+    "main.js": "/coreycasmedes-ui/static/js/main.7f613dcd.js",
     "static/js/787.4d17e14f.chunk.js": "/coreycasmedes-ui/static/js/787.4d17e14f.chunk.js",
     "static/media/img_v2_grayscale.png": "/coreycasmedes-ui/static/media/img_v2_grayscale.dbb84529d855b5fbc91a.png",
     "static/media/corey_muir_beach.jpg": "/coreycasmedes-ui/static/media/corey_muir_beach.18098ef5f7f777acb729.jpg",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/coreycasmedes-ui/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/coreycasmedes-ui/index.html",
     "main.3f49b327.css.map": "/coreycasmedes-ui/static/css/main.3f49b327.css.map",
-    "main.589daf5b.js.map": "/coreycasmedes-ui/static/js/main.589daf5b.js.map",
+    "main.7f613dcd.js.map": "/coreycasmedes-ui/static/js/main.7f613dcd.js.map",
     "787.4d17e14f.chunk.js.map": "/coreycasmedes-ui/static/js/787.4d17e14f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f49b327.css",
-    "static/js/main.589daf5b.js"
+    "static/js/main.7f613dcd.js"
   ]
 }
