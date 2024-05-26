@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/coreycasmedes-ui/static/css/main.3f49b327.css",
-    "main.js": "/coreycasmedes-ui/static/js/main.7f613dcd.js",
-    "static/js/787.4d17e14f.chunk.js": "/coreycasmedes-ui/static/js/787.4d17e14f.chunk.js",
-    "static/media/img_v2_grayscale.png": "/coreycasmedes-ui/static/media/img_v2_grayscale.dbb84529d855b5fbc91a.png",
-    "static/media/corey_muir_beach.jpg": "/coreycasmedes-ui/static/media/corey_muir_beach.18098ef5f7f777acb729.jpg",
-    "static/media/OpenSans-Medium.ttf": "/coreycasmedes-ui/static/media/OpenSans-Medium.08fc84700e14c9efe029.ttf",
-    "static/media/OpenSans-Light.ttf": "/coreycasmedes-ui/static/media/OpenSans-Light.6d0ca57e8101dc207b5c.ttf",
-    "static/media/CoreyCasmedesFall2022.pdf": "/coreycasmedes-ui/static/media/CoreyCasmedesFall2022.aebe34fdef25b6f2539b.pdf",
-    "static/media/Assistant-Light.ttf": "/coreycasmedes-ui/static/media/Assistant-Light.1af74b30299892efee4f.ttf",
-    "static/media/Assistant-Medium.ttf": "/coreycasmedes-ui/static/media/Assistant-Medium.21f035dd574e9e732477.ttf",
-    "static/media/Assistant-ExtraBold.ttf": "/coreycasmedes-ui/static/media/Assistant-ExtraBold.1f1822d8cdb18832b9a3.ttf",
-    "static/media/instagram_icon.png": "/coreycasmedes-ui/static/media/instagram_icon.ff9721125ed9d2cea46e.png",
-    "static/media/github_icon.png": "/coreycasmedes-ui/static/media/github_icon.5fd00dcdaa94a9ffbe9e.png",
-    "static/media/logo.svg": "/coreycasmedes-ui/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/coreycasmedes-ui/index.html",
-    "main.3f49b327.css.map": "/coreycasmedes-ui/static/css/main.3f49b327.css.map",
-    "main.7f613dcd.js.map": "/coreycasmedes-ui/static/js/main.7f613dcd.js.map",
-    "787.4d17e14f.chunk.js.map": "/coreycasmedes-ui/static/js/787.4d17e14f.chunk.js.map"
+    "main.css": "/static/css/main.f3fb80e8.css",
+    "main.js": "/static/js/main.16748784.js",
+    "static/js/787.4d17e14f.chunk.js": "/static/js/787.4d17e14f.chunk.js",
+    "static/media/img_v2_grayscale.png": "/static/media/img_v2_grayscale.dbb84529d855b5fbc91a.png",
+    "static/media/corey_muir_beach.jpg": "/static/media/corey_muir_beach.18098ef5f7f777acb729.jpg",
+    "static/media/OpenSans-Medium.ttf": "/static/media/OpenSans-Medium.08fc84700e14c9efe029.ttf",
+    "static/media/OpenSans-Light.ttf": "/static/media/OpenSans-Light.6d0ca57e8101dc207b5c.ttf",
+    "static/media/CoreyCasmedesFall2022.pdf": "/static/media/CoreyCasmedesFall2022.aebe34fdef25b6f2539b.pdf",
+    "static/media/Assistant-Light.ttf": "/static/media/Assistant-Light.1af74b30299892efee4f.ttf",
+    "static/media/Assistant-Medium.ttf": "/static/media/Assistant-Medium.21f035dd574e9e732477.ttf",
+    "static/media/Assistant-ExtraBold.ttf": "/static/media/Assistant-ExtraBold.1f1822d8cdb18832b9a3.ttf",
+    "static/media/instagram_icon.png": "/static/media/instagram_icon.ff9721125ed9d2cea46e.png",
+    "static/media/github_icon.png": "/static/media/github_icon.5fd00dcdaa94a9ffbe9e.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.f3fb80e8.css.map": "/static/css/main.f3fb80e8.css.map",
+    "main.16748784.js.map": "/static/js/main.16748784.js.map",
+    "787.4d17e14f.chunk.js.map": "/static/js/787.4d17e14f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f49b327.css",
-    "static/js/main.7f613dcd.js"
+    "static/css/main.f3fb80e8.css",
+    "static/js/main.16748784.js"
   ]
 }
