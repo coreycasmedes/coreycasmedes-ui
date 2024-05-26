@@ -5,7 +5,6 @@ import './App.css';
 import { Tab } from '@headlessui/react'
 import NavBar from './Navbar';
 import ProfileAvatar from './corey_muir_beach.jpg';
-import Button from './Button';
 import InstagramIcon from './instagram_icon.png'
 import LinkedInIcon from './linkedin_icon.png'
 import GithubIcon from './github_icon.png'
@@ -34,7 +33,7 @@ const App: React.FC = () => {
         
         <ul className='flex items-center gap-0 md:gap-8'>
           <li className=' px-2 py-1 font-assistant-light  ml-4 rounded-md hover:bg-gray-300'>
-            <Link to="/coreycasmedes-ui">Home</Link>
+            <Link to="">Home</Link>
           </li>
           <li className='px-2 py-1 font-assistant-light  ml-4 rounded-md hover:bg-gray-300'>
             <Link 
@@ -52,7 +51,7 @@ const App: React.FC = () => {
     
       <div className='flex-grow flex-shrink-0 basis-auto'>
         <Routes>
-          <Route path="coreycasmedes-ui" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="resume" element={<Resume />} />
         </Routes>
       </div>
